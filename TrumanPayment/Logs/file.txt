@@ -1,0 +1,11 @@
+Error : Security header is not valid
+Error : Security header is not valid
+Year and month  : 28 - 9
+Year and month  : 27 - 3
+Year and month  : 28 - 5
+Error : Invalid object name 'tblCreditCardData'.
+Error : Invalid object name 'tblBPayData'.
+Year and month  : 28 - 4
+Year and month  : 25 - 5
+Error : There was no endpoint listening at https://api-3t.paypal.com/2.0/ that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+Error : Security header is not valid

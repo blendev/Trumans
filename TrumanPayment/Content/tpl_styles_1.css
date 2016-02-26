@@ -1,0 +1,1289 @@
+/* Font Faces - BEGIN */
+@font-face {
+    font-family: 'TeXGyreHerosBold';
+    src: url('fonts/texgyreheros-bold-webfont.eot');
+    src: url('fonts/texgyreheros-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/texgyreheros-bold-webfont.woff') format('woff'),
+         url('fonts/texgyreheros-bold-webfont.ttf') format('truetype'),
+         url('fonts/texgyreheros-bold-webfont.svg#TeXGyreHerosBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Font Faces - END */
+
+html, body {
+	height: 100%;
+}
+body {
+	background: #dedcdd url('s.com.au/rs/7/sites/1123/custom_files/tpl_images/main_bg.png') left top repeat-x;
+	border-top: 7px solid #666;
+	margin: 0px;
+	min-width: 994px;
+}
+body, p, td, ul, li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 120%;
+	color: #666;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: #024593;
+	line-height: normal;
+	font-weight: normal;
+	font-family: "TeXGyreHerosBold", Arial, Helvetica;
+}
+h1 {
+	font-size: 22px;
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/heading_bg.png') 0 5px no-repeat;
+	padding: 0 0 0 32px;
+	margin: 0 0 9px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 13px;
+}
+a {
+	color: #B29251;
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+img {
+	border: 0;
+	height: auto !important;
+	max-width: 100%;
+	width: auto\9;
+	vertical-align: middle;
+	-ms-interpolation-mode: bicubic;
+}
+p {
+	padding: 0;
+	margin-top: 9px;
+	margin-bottom: 9px;
+}
+ul {
+	padding-left: 30px;
+	margin-left: 0;
+	list-style-type: none;
+}
+ul li {
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/list.png') 0 1px no-repeat;
+	padding: 0 0 5px 20px;
+}
+::-webkit-input-placeholder { opacity: 1; }
+::-moz-placeholder { opacity: 1; } /* firefox 19+ */
+:-ms-input-placeholder { opacity: 1; filter:alpha(opacity=100); } /* ie */
+input:-moz-placeholder { opacity: 1; }
+
+/****** SPECIAL FOOTER LINKS STYLES ******/
+
+#footer_links, #footer_links a {
+	color: #d2d8e6;
+	font: normal 11px/14px Arial, Helvetica, sans-serif;
+}
+#footer_links a {
+	padding: 0;
+}
+/****** HORIZONTAL MENU STYLES ******/
+
+#menu li {
+	text-align: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+/****** COMMON MENU STYLES ******/
+
+#menu {
+	width: 100%;
+	float: left;
+}
+#menu ul {
+	width: 100%;
+	float: left;
+}
+#menu li.first_main_menu_item, #menu li.middle_main_menu_item, #menu li.last_main_menu_item {
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/menu_left.png') left top no-repeat;
+	padding: 0;
+	position: relative;
+	border: none;
+	margin: 0;
+}
+#menu li.first_main_menu_item {
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/menu_first.png') 0 -38px repeat-x;
+}
+#menu li.first_main_menu_item:hover, #menu li.middle_main_menu_item:hover, #menu li.last_main_menu_item:hover, #menu li.selected_main_menu_item {
+	background-position: left bottom;
+}
+#menu li.first_main_menu_item.selected_main_menu_item {
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/menu_first.png') left top repeat-x;
+}
+#menu li a {
+	height: 38px;
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/menu_right.png') right top no-repeat;
+	padding: 0 13px;
+	margin: 0;
+	color: #666;
+	font: normal 12px/38px "TeXGyreHerosBold", Arial, Helvetica;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+* html #menu li a {
+	float: left;
+}
+#menu li:hover, #menu li:hover a, #menu li a:hover, #menu li.selected_main_menu_item a {
+	text-decoration: none;
+}
+#menu li:hover a, #menu li a:hover, #menu li.selected_main_menu_item a {
+	background-position: right bottom;
+	color: #fff;
+}
+#menu li.first_main_menu_item a {
+	padding-left: 20px;
+}
+#menu li.last_main_menu_item a, #menu li.last_main_menu_item a:hover {
+	background: none;
+}
+#menu li ul {
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	width: 210px;
+	left: 0;
+	background: #efe8da;
+	padding: 6px 0 8px;
+	border: none;
+}
+* html #menu li ul {
+	top: 38px;
+}
+#menu li ul li {
+	width: 210px;
+	background: none;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	list-style-image: none;
+	text-align: left;
+}
+#menu li ul li a, #menu li:hover ul li a {
+	background: none;
+	height: auto;
+	min-height: 1px;
+	text-align: left;
+	padding: 2px 5px 3px 13px;
+	color: #B29351;
+	font: normal 13px/16px "TeXGyreHerosBold", Arial, Helvetica;
+	text-decoration: none;
+	text-transform: none;
+	text-shadow: none;
+}
+#menu li ul li a:hover, #menu li:hover ul li a:hover {
+	background: none;
+	color: #B29351;
+	text-decoration: underline;
+}
+
+/****** MAIN LAYOUT STYLES ******/
+.wrap {
+	*zoom: 1;
+}
+.wrap:before,
+.wrap:after {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+.wrap:after {
+	clear: both;
+}
+.center {
+	margin: 0 auto;
+	max-width: 994px;
+}
+.main_area {
+}
+.main_area_top {
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/top_area.png') 0 96px no-repeat;
+	padding: 0 22px;
+}
+header {
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/header.png') right top no-repeat;
+}
+.logo {
+	float: left;
+	padding: 8px 0 10px;
+	text-align: center;
+}
+.logo a, .logo img {
+	line-height: 0;
+}
+.logo img {
+	vertical-align: top;
+}
+.header_right {
+	float: right;
+	padding-top: 3px;
+}
+.header_links {
+	text-align: right;
+}
+.header_links a {
+	color: #004592;
+	font: normal 13px/20px "TeXGyreHerosBold", Arial, Helvetica;
+	text-decoration: underline;
+}
+.slogan {
+	padding-top: 14px;
+	text-align: right;
+}
+.slogan img {
+	line-height: 0;
+	vertical-align: top;
+}
+.phone_number {
+	font: normal 13px/16px "TeXGyreHerosBold", Arial, Helvetica;
+	text-align: right;
+}
+.phone_number span span {
+	color: #B29251;
+}
+.phone_number a {
+	color: #B29251;
+}
+.banner_area {
+	background: #024593;
+	position: relative;
+}
+.banner_left {
+	width: 632px;
+	float: left;
+	position: relative;
+}
+.banner_overlay {
+	width: 436px;
+	height: 45px;
+	position: absolute;
+	z-index: 1001;
+	bottom: 31px;
+	left: 0;
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/banner_overlay.png') left top no-repeat;
+}
+.banner_right {
+	background: #024593 url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/banner_bg.png') right top no-repeat;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 318px;
+	z-index: 1000;
+}
+.banner_right_inner {
+	padding: 80px 0 0 45px;
+}
+.banner_right_inner div {
+	padding: 0 0 7px;
+}
+.banner_right_inner a, .banner_right_inner img {
+	display: block;
+}
+.top_menu {
+	background: #f1f1f1; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f1f1f1 0%, #dedcdd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f1f1), color-stop(100%,#dedcdd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f1f1f1 0%,#dedcdd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f1f1f1 0%,#dedcdd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f1f1f1 0%,#dedcdd 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f1f1f1 0%,#dedcdd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#dedcdd',GradientType=0 ); /* IE6-9 */
+	position: relative;
+	z-index: 1010;
+}
+.mainbody_top {
+	width: 100%;
+	height: 258px;
+	float: left;
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/wrapper_top.png') left top no-repeat;
+}
+.mainbody_repeat {
+	width: 100%;
+	float: left;
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/wrapper_repeat.png') left top repeat-y;
+}
+.mainbody_margin_bottom {
+	width: 100%;
+	float: left;
+	position: relative;
+	margin: 0 0 -260px;
+}
+.mainbody_margin_top {
+	width: 100%;
+	float: left;
+	position: relative;
+	margin: -258px 0 0;
+}
+.mainbody_padding {
+	padding: 0 22px;
+}
+.mainbody_right {
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/right_col.png') right top no-repeat;
+}
+body.full .mainbody_right {
+	background: none;
+}
+.mainbody_bg {
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/mainbody.png') center top no-repeat;
+	padding-right: 256px;
+	position: relative;
+}
+body.full .mainbody_bg {
+	background: none;
+	padding-right: 0;
+}
+.left_col {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+.left_col_padding {
+	padding: 31px 20px 20px;
+}
+.right_col {
+	float: left;
+	margin-right: -100%;
+	position: relative;
+	width: 256px;
+}
+.right_col_padding {
+	padding: 39px 24px 20px 26px;
+}
+.mainbody_bottom {
+	width: 100%;
+	height: 260px;
+	float: left;
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/wrapper_bottom.png') left top no-repeat;
+}
+footer {
+	background: #132759 url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/footer.jpg') center top no-repeat;
+}
+.footer_left {
+	width: 168px;
+	float: left;
+	padding: 23px 0 19px 35px;
+}
+.footer_left div {
+	float: left;
+	padding: 0 0 0 7px;
+}
+.footer_left div a, .footer_left div img {
+	float: left;
+}
+.footer_right {
+	float: right;
+	padding: 31px 38px 0 0;
+	text-align: right;
+	color: #d2d8e6;
+	font: normal 11px/14px Arial, Helvetica, sans-serif;
+}
+.footer_right a {
+	color: #d2d8e6;
+	font: normal 11px/14px Arial, Helvetica, sans-serif;
+	white-space: nowrap;
+}
+#preload_menu_bg {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	top: -10px;
+	left: 0;
+	background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/sub_menu_bg.png') left top no-repeat;
+}
+.desktop_hidden {
+	display: none;
+}
+
+/* Common Styles */
+input[type="text"] {
+	background: #fff;
+	border: 1px solid #c0c0c0;
+	color: #666;
+	font: normal 13px/26px Arial, Helvetica, sans-serif;
+	height: 26px;
+	margin: 0;
+	padding: 0 5px;
+	width: 151px;
+}
+input[type="tel"] {
+  background: #fff;
+  border: 1px solid #c0c0c0;
+  color: #666;
+  font: normal 13px/26px Arial, Helvetica, sans-serif;
+  height: 26px;
+  margin: 0;
+  padding: 0 5px;
+  width: 151px;
+}
+.contact11:before,
+.contact11:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.contact11:after {
+	clear: both;
+}
+.contact11 {
+	margin: 0;
+	padding: 0;
+}
+.contact11 li {
+	background: none;
+	float: right;
+	list-style-image: none;
+	list-style-type: none;
+	max-width: 50%;
+	padding: 0;
+}
+.contact11 li:first-child {
+	float: left;
+	width: 100%;
+}
+.contact11 input[type="text"],
+.contact11 textarea {
+	border: 1px solid #B7B7B7;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    min-height: 30px;
+    width: 90%;
+}
+.contact11 table table input[type="text"] {
+	width: auto;
+}
+.contact11 table img {
+	max-width: 144px;
+}
+.contact11 input[type="submit"] {
+	float: left;
+}
+input[type="submit"], button {
+	background: #024593;
+	border-width: 0;;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font: bold 14px/16px 'lato', sans-serif;
+	height: 28px;
+	padding: 3px 11px 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.home_boxes {
+	*zoom: 1;
+}
+.home_boxes:before,
+.home_boxes:after {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+.home_boxes:after {
+	clear: both;
+}
+.home_boxes {
+	margin: 0 0 0 -8px;
+	padding: 0;
+}
+.home_boxes > li {
+	float: left;
+	background: none;
+	margin: 0 0 0 8px;
+	padding: 0;
+	width: 157px;
+}
+.right_list {
+	*zoom: 1;
+}
+.right_list:before,
+.right_list:after {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+.right_list:after {
+	clear: both;
+}
+.right_list {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.right_list > li {
+	float: left;
+	background: none;
+	margin: 0 0 7px;
+	padding: 0;
+	width: 100%;
+}
+.right_list > li a, .right_list > li img {
+	line-height: 0;
+}
+.right_list > li img {
+	vertical-align: top;
+}
+.linkedin {
+	padding-top: 10px;
+}
+.sidebar_news {
+	*zoom: 1;
+}
+.sidebar_news:before,
+.sidebar_news:after {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+.sidebar_news:after {
+	clear: both;
+}
+.sidebar_news {
+	margin: 0;
+	padding: 0;
+}
+.sidebar_news > li {
+	background: none;
+	margin: 0 0 0 78px;
+	padding: 0;
+}
+.sidebar_news > li:first-child {
+	float: left;
+	margin: 0;
+}
+
+/*****************************************************************
+************************* Responsive Styles **********************/
+
+/* Responsive Google Maps */
+.responsive-map-container {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 60%;
+    padding-top: 30px;
+    position: relative;
+}
+
+.responsive-map-container iframe,   
+.responsive-map-container object,  
+.responsive-map-container embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Slideshow Fix */
+.placeholder {
+	display: block;
+	float: left;
+	margin: 0 auto;
+    visibility : hidden;
+}
+#banner {
+	height: 0 !important;
+	left: 0;
+	position: absolute !important;
+	top: 0;
+	width: 100% !important;
+}
+#banner div {
+	height: auto !important;
+	width: 100% !important;
+}
+#banner img {
+	height: auto !important;
+	width: auto !important;
+	vertical-align: top;
+}
+
+@media (max-width: 1030px) {
+	body {
+		min-width: 1px;
+	}
+	.main_area_top, .mainbody_padding {
+		padding: 0;
+	}
+	.mainbody_top, .mainbody_bottom {
+		display: none;
+	}
+	.mainbody_margin_bottom, .mainbody_margin_top {
+		margin: 0;
+	}
+	.mainbody_padding {
+		background: #fff;
+	}
+	header {
+		padding: 0 20px;
+	}
+	.banner_right {
+		width: 275px;
+	}
+	.banner_right_inner {
+		padding-left: 25px;
+	}
+	.footer_left {
+		padding-left: 20px;
+	}
+	.footer_left div:first-child {
+		padding-left: 0;
+	}
+	.footer_right {
+		padding-right: 20px;
+	}
+	.footer_right > span {
+		display: none;
+	}
+	.footer_right > span.footer_link_block {
+		display: block;
+	}
+}
+
+@media (max-width: 979px) {
+	.desktop_visible {
+		display: none;
+	}
+	.desktop_hidden {
+		display: block;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.contact11 li, .contact11 li:first-child {
+		max-width: 100%;
+		float: none;
+		padding: 0 0 10px 0;
+	}
+	.main_area_top {
+		background: none;
+	}
+	header {
+		background: none;
+	}
+	.logo {
+		float: none;
+		width: auto;
+	}
+	.header_right {
+		float: none;
+		margin: 0 auto;
+		padding: 3px 0 15px;
+	}
+	.header_links, .slogan, .phone_number {
+		text-align: center;
+	}
+	.banner_left {
+		float: none;
+		width: auto;
+	}
+	#banner img, .placeholder {
+		width: 100% !important;
+	}
+	.banner_right {
+		position: static;
+		width: auto;
+	}
+	.banner_right_inner {
+		margin: 0 auto;
+		max-width: 235px;
+		padding: 15px 0 3px;
+	}
+	.banner_right_inner div {
+		float: left;
+		padding: 0 0 7px;
+	}
+	.banner_right_inner div:first-child {
+		padding-left: 0;
+	}
+	.mainbody_right {
+		background: none;
+	}
+	.mainbody_bg {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.left_col {
+		float: none;
+		width: auto;
+	}
+	.left_col_padding {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.right_col {
+		float: none;
+		margin: 0;
+		width: auto;
+	}
+	.right_col_padding {
+		padding: 20px 0 25px;
+	}
+	.right_list {
+		margin-left: -7px;
+	}
+	.right_list > li {
+		margin-left: 7px;
+		width: 206px;
+	}
+}
+
+@media (max-width: 530px) {
+	.footer_right {
+		float: none;
+		padding: 20px 0 15px;
+		text-align: center;
+		width: auto;
+	}
+	.footer_left {
+		float: none;
+		margin: 0 auto;
+		padding: 0 0 15px;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.contact11 form table input[type="text"] {
+		width: 80px;
+	}
+	textarea {
+		width: 80% !important;
+	}
+	input[name="form_security_code"] {
+		width: 80px;
+	}
+	.phone_number > span {
+		display: none;
+	}
+	.phone_number > span.phone_item {
+		display: block;
+	}
+	.banner_overlay {
+		display: none;
+	}
+}
+
+@media (max-width: 380px) {
+	.contact11 input[type="text"], .contact11 textarea {
+		padding-left: 0;
+		padding-right: 0;
+		width: 98%;
+	}
+	.banner_left {
+		display: none;
+	}
+	.home_boxes {
+		margin: 0 auto;
+		width: 157px;
+	}
+	.home_boxes > li {
+		margin-left: 0;
+	}
+	.right_list {
+		margin: 0 auto;
+		width: 206px;
+	}
+	.right_list > li {
+		margin-left: 0;
+	}
+}
+
+/***** Responsive Navigation *****/
+.menu-icon {
+	display: none; /* hide menu icon initially */
+}
+
+@media screen and (max-width: 979px) {
+	/* Dropdown Categories */
+	#cart_categories_men_snippet .menu-icon {
+		background: #fff;
+		color: #fff;
+		cursor: pointer;
+		display: block;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: 700;
+		padding: 0;
+		text-decoration: none;
+	}
+	#cart_categories_men_snippet .menu_slash {
+		width: 45px;
+		height: 40px;
+		float: right;
+		background: #eaeaea url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/ph_menu_extend.png') center center no-repeat;
+		padding: 0;
+		font-size: 16px;
+		text-indent: -9999em;
+		line-height: 22px;
+		font-size: 1px;
+	}
+	#cart_categories_men_snippet .menu_text {
+	    float: left;
+		padding: 10px 5px 10px 17px;
+	    font: normal 18px/20px Arial, Helvetica, sans-serif;
+	    padding-right: 5px;
+		color: #090909;
+	}
+	#cart_categories_men_snippet .menu-icon span {
+		display: none;
+	}
+	#cart_categories_men_snippet .responsive_wrap  {
+		display: none;
+	}
+	
+	#cart_categories_men_snippet {
+		float: none;
+		margin: 0 auto;
+		width: 207px;
+	}
+	#cart_categories_men_snippet .menu-icon, #cart_categories_men_snippet .responsive_wrap {
+		background: #EE3696;
+	}
+	#cart_categories_men_snippet .menu_text {
+		color: #fff;
+		padding-right: 0;
+	}
+	#cart_categories_men_snippet .menu_slash {
+		background: url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/ph_categories_extend.png') center center no-repeat;
+	}
+	
+	#cart_categories_men_snippet ul {
+		width: 100%;
+		clear: both;
+		z-index: 10000;
+		padding: 0;
+		border: none;
+		margin: 0;
+	}
+	#cart_categories_men_snippet ul li {
+		background: none;
+		border-bottom: none;
+		border-left: none;
+		border-right: none;
+		border-top: 1px solid #888;
+		float: left;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	#cart_categories_men_snippet ul a,
+	#cart_categories_men_snippet ul ul a {
+		display: block;
+		background: none;
+		border-bottom-width: 0;
+		color: #090909;
+		float: none;
+		font-weight: normal;
+		font-size: 14px;
+		height: auto;
+		line-height: 18px;
+		margin: 0;
+		padding: 10px 25px;
+		text-shadow: none !important;
+		width: auto;
+		*zoom: 1;
+	}
+	#cart_categories_men_snippet ul a:hover,
+	#cart_categories_men_snippet ul ul a:hover {
+		background-color: #2290B1;
+		border-bottom-width: 0;
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	/* dropdown */
+	#cart_categories_men_snippet ul ul {
+		background: none;
+		border: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		display: block;
+		padding: 0;
+		position: static;
+		width: 100%;
+		visibility: visible;
+	}
+	#cart_categories_men_snippet ul ul li {
+		background: none;
+		clear: both;
+		float: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	#cart_categories_men_snippet ul ul a {
+		color: #262626;
+		font-size: 14px;
+		font-weight: normal;
+		line-height: 120%;
+		padding: 10px 12%;
+		text-decoration: none;
+	}
+}
+
+@media screen and (max-width: 979px) {
+	#menu {
+		*zoom: 1;
+	}
+	#menu:before,
+	#menu:after {
+		content: "";
+		display: table;
+		line-height: 0;
+	}
+	#menu:after {
+		clear: both;
+	}
+	#menu {
+		float: none;
+		padding: 12px 20px !important;
+		position: relative;
+		width: auto;
+		z-index: 999999;
+	}
+	.responsive_wrap {
+		background: #fff;
+	}
+	.menu-icon {
+		background: #fff;
+		color: #fff;
+		cursor: pointer;
+		display: block;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: 700;
+		padding: 0;
+		text-decoration: none;
+	}
+	.menu_slash {
+		width: 45px;
+		height: 40px;
+		float: right;
+		background: #ccc url('http://www.trumans.com.au/rs/7/sites/1123/custom_files/tpl_images/ph_menu_extend.pn-radius: 0;
+		border-radius: 0;
+		color: #666;
+		display: block;
+		font-size: 12px;
+		font-weight: normal;
+		height: auto;
+		line-height: 18px;
+		margin: 0;
+		padding: 10px 25px;
+		text-align: left;
+		text-shadow: none !important;
+	}
+	#menu #menuList a:hover, .responsive_wrap ul a:hover,
+	#menu #menuList ul a:hover, .responsive_wrap ul ul a:hover {
+		background-color: #024593;
+		border-bottom-width: 0;
+		color: #fff;
+	}
+	
+	/* dropdown */
+	#menu #menuList ul, .responsive_wrap ul ul {
+		background: none;
+		border: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		display: block;
+		padding: 0;
+		position: static;
+		width: 100%;
+		visibility: visible;
+	}
+	#menu #menuList ul li, .responsive_wrap ul ul li {
+		background: none;
+		clear: both;
+		float: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	#menu #menuList ul a, .responsive_wrap ul ul a {
+		color: #666;
+		font-size: 12px;
+		font-weight: normal;
+		line-height: 120%;
+		padding: 10px 12%;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+}
+
+@media (min-width: 980px) {
+	#menuList {
+		display: block !important;
+	}
+}
+
+/***** Responsive Gallery *****/
+@media (max-width: 979px) {
+	.gallery {
+		*zoom: 1;
+	}
+	.gallery:before,
+	.gallery:after {
+		display: table;
+		content: "";
+		line-height: 0;
+	}
+	.gallery:after {
+		clear: both;
+	}
+	/* Force table to not be like tables anymore */
+	.gallery,
+	.gallery thead,
+	.gallery tbody,
+	.gallery th,
+	.gallery td,
+	.gallery tr {
+		display: block;
+	}
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.gallery thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	.gallery td {
+		/* Behave like a "row" */
+		width: 100% !important;
+		border: none;
+		position: relative;
+		white-space: normal;
+		text-align:left;
+	}
+	.gallery td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+	/* Label the data */
+	.gallery td:before {
+		content: attr(data-title);
+	}
+
+	table.gallery {
+		margin: 0 auto;
+		max-width: 580px;
+	}
+	table.gallery td.gallery_cell {
+		float: left;
+		padding: 10px 0;
+		text-align: center;
+		width: 49% !important;
+	}
+}
+
+@media (max-width: 650px) {
+	table.gallery {
+		max-width: 270px;
+	}
+	table.gallery td.gallery_cell {
+		float: left;
+		width: 100% !important;
+	}
+}
+
+/***** Responsive Table *****/
+@media (max-width: 979px) {
+	.notable_tablet {
+		border: none;
+	}
+	/* Force table to not be like tables anymore */
+	.notable_tablet,
+	.notable_tablet thead,
+	.notable_tablet tbody,
+	.notable_tablet th,
+	.notable_tablet td,
+	.notable_tablet tr {
+		display: block;
+	}
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.notable_tablet thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	.notable_tablet td {
+		/* Behave like a "row" */
+		width: 100% !important;
+		border: none;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		position: relative;
+		white-space: normal;
+		text-align:left;
+	}
+	.notable_tablet td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 5px;
+		left: 0;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}	 
+	/* Label the data */
+	.notable_tablet td:before {
+		content: attr(data-title);
+	}
+	.notable_tablet .notable_hidden {
+		display: none !important;
+	}
+	
+	.notable_tablet.notable_with_heading tr {
+		border-bottom: 1px dotted #ccc;
+	}
+	.notable_tablet.notable_with_heading td {
+		padding-top: 25px;
+	}
+	.notable_tablet.notable_with_heading td p {
+		text-align: left !important;
+	}
+}
+
+@media (max-width: 767px) {
+	/* Force table to not be like tables anymore */
+	.notable {
+		border: none;
+	}
+	.notable,
+	.notable thead,
+	.notable tbody,
+	.notable th,
+	.notable td,
+	.notable tr {
+		display: block;
+	}
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.notable thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	.notable td {
+		/* Behave like a "row" */
+		width: 100% !important;
+		border: none;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		position: relative;
+		white-space: normal;
+		text-align: left;
+	}
+	.notable td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 5px;
+		left: 0;
+		width: 100%;
+		white-space: nowrap;
+		text-align: left;
+		font-weight: bold;
+	}	 
+	/* Label the data */
+	.notable td:before {
+		content: attr(data-title);
+	}
+	.notable .notable_hidden {
+		display: none !important;
+	}
+	
+	.notable.notable_with_heading tr {
+		border-bottom: 1px dotted #ccc;
+	}
+	.notable.notable_with_heading td {
+		padding-top: 25px;
+	}
+	.notable.notable_with_heading td p {
+		text-align: left !important;
+	}
+}
+
+@media (max-width: 480px) {
+	/* Force table to not be like tables anymore */
+	.notable_mobile,
+	.notable_mobile thead,
+	.notable_mobile tbody,
+	.notable_mobile th,
+	.notable_mobile td,
+	.notable_mobile tr {
+		display: block;
+	}
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.notable_mobile thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	.notable_mobile td {
+		/* Behave like a "row" */
+		width: 100% !important;
+		border: none;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		position: relative;
+		white-space: normal;
+		text-align:left;
+	}
+	.notable_mobile td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}	 
+	/* Label the data */
+	.notable_mobile td:before {
+		content: attr(data-title);
+	}
+}
