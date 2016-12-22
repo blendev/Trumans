@@ -7,240 +7,22 @@
     <title>Trumans Payment</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <base target="_parent" />
+ <link rel="stylesheet" type="text/css" href="/Content/style.css" />
     <style type="text/css" media="screen, tv, projection, print">
         @import "Content/Menu.css";
     </style>
-    <style>
-        * {
-            margin: 0px;
-        }
-
-
-
-        ul {
-            list-style: none;
-        }
-
-        .clear {
-            clear: both;
-        }
-
-        .account_dtl {
-            position: relative;
-            float: left;
-            margin: 10px;
-            border: 1px #dbdbdb solid;
-            border-radius: 8px;
-            padding: 10px;
-            width: 280px;
-            height: 200px;
-        }
-
-        .payment_dtl {
-            position: relative;
-            float: left;
-            margin-left: 10px;
-            margin-top: 10px;
-            border: 1px #dbdbdb solid;
-            border-radius: 8px;
-            padding: 10px;
-            width: 70%;
-            height: 200px;
-        }
-
-        .cf input {
-            float: left;
-            width: 100px;
-        }
-
-        .tooltips {
-            float: left;
-            margin-top: 4px;
-        }
-
-        #top_menu_new {
-            visibility: hidden;
-            position: absolute;
-        }
-
-        a.tooltip {
-            outline: none;
-        }
-
-            a.tooltip strong {
-                line-height: 30px;
-            }
-
-            a.tooltip:hover {
-                text-decoration: none;
-            }
-
-            a.tooltip span {
-                z-index: 10;
-                display: none;
-                padding: 14px 20px;
-                margin-top: 30px;
-                margin-left: 0x;
-                width: 300px;
-                line-height: 16px;
-            }
-
-            a.tooltip:hover span {
-                display: inline;
-                position: absolute;
-                border: 2px solid #FFF;
-                color: #EEE;
-                background: #333;
-            }
-
-        .callout {
-            position: absolute;
-            border: 0;
-            top: 5%;
-            left: 90%;
-            cursor: pointer;
-        }
-
-            .callout span {
-                z-index: 22;
-                position: relative;
-            }
-
-        /*CSS3 extras*/
-        a.tooltip span {
-            border-radius: 2px;
-            box-shadow: 0px 0px 8px 4px #666;
-            /*opacity: 0.8;*/
-        }
-
-        .other-payment-links-label {
-            margin: 30px;
-        }
-
-        .other-payment-links-details ul li {
-            float: left;
-            margin: 10px;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        html,
-        body {
-            width: 100%;
-            height: 100%;
-        }
-
-        body {
-            margin: .75em;
-            background: url(http://cache.clickonf5.org/wp-content/uploads/2010/04/ubuntu_wallpaper_thumb.png);
-            background-size: cover;
-        }
-
-        /* Advanced Checkbox Hack */
-        body {
-            -webkit-animation: bugfix infinite 1s;
-        }
-
-        @-webkit-keyframes bugfix {
-            from {
-                padding: 0;
-            }
-
-            to {
-                padding: 0;
-            }
-        }
-
-        input[type=checkbox] {
-        }
-
-        label {
-            display: none;
-            cursor: pointer;
-            user-select: none;
-        }
-
-        /* background for li / select */
-        /* custom-dropdown */
-        nav[role="custom-dropdown"] {
-            position: relative;
-            width: 100%;
-        }
-
-            nav[role="custom-dropdown"] a,
-            nav[role="custom-dropdown"] label {
-                color: #ccc;
-                text-decoration: none;
-                font: 1.4em sans-serif;
-                transition: color .3s ease-in-out;
-            }
-
-            nav[role="custom-dropdown"] ul {
-                padding: 0;
-                margin: 0 auto;
-                width: 100%;
-                list-style: none;
-            }
-
-                nav[role="custom-dropdown"] ul > li {
-                    float: left;
-                    padding: .55em .55em;
-                    background-image: url(https://raw.github.com/TimPietrusky/mantisbt-is-a-rockstar/master/rockstar/img/bg_dark_grey.png);
-                    text-align: center;
-                    transition-duration: .3s;
-                    transition-timing-function: ease-in-out;
-                    transition-property: box-shadow, color;
-                    box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.35);
-                    cursor: pointer;
-                }
-
-                    nav[role="custom-dropdown"] ul > li:hover {
-                        background-color: rgba(0, 0, 0, 0.85);
-                        color: #fff;
-                        box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.35), inset 0 0 0 2em rgba(0, 0, 0, 0.3);
-                    }
-
-                        nav[role="custom-dropdown"] ul > li:hover > a {
-                            color: #fff;
-                        }
-
-        /* small screens */
-        @media screen and (max-width: 44em) {
-            html,
-            body {
-                margin: 0;
-            }
-
-            .account_dtl {
-                float: none;
-                min-width: 80%;
-            }
-
-            .payment_dtl {
-                float: none;
-                min-width: 80%;
-                width: 280px;
-            }
-
-
-
-            h1 {
-                margin: 32px 0 9px !important;
-            }
-        }
-    </style>
+   
     <link rel="stylesheet" type="text/css" href="content/global_styles.css" />
     <link rel="stylesheet" type="text/css" href="content/tpl_styles.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!--[if !IE]> <-->
     <script type="text/javascript" src="Scripts/ADxMenu.js"></script>
-    <!--> <![endif]-->
-   <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script> -->
-      <script type="text/javascript" src="scripts/jquery.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.mousewheel-3.0.6.pack.js"></script>
+    <!--> <![endif]
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+ 
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
+   <script type="text/javascript" src="scripts/jquery.mousewheel-3.0.6.pack.js"></script>
     <script type="text/javascript" src="Scripts/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="scripts/jquery.cycle.all.min.js"></script>
     <script type="text/javascript" src="content/slimbox2.js"></script>
@@ -252,7 +34,8 @@
 
     <script type="text/javascript" src="scripts/responsiveMenu.js"></script>
 
-    
+
+
 
 
 
@@ -260,7 +43,7 @@
     <script src="<%: ResolveUrl("~/Scripts/jquery.validate.js") %>" type="text/javascript"></script>
 
     <script type="text/javascript">
-        function checkextrainfo() {
+           function checkextrainfo() {
 
             
 
@@ -297,12 +80,10 @@
             }
 
         }
+     
         $(document).ready(function () {
-          
-        var myselect = document.getElementById("ExpiryYear"), year = new Date().getFullYear(), maxyear = year + 20, yearclone = year;
-            var gen = function (max) { do { myselect.add(new Option(year++, (yearclone++).toString().substr(2, 2)), null); } while (year < maxyear); }(20);
 
-            $('#ExpiryYear').change(function () {
+  $('#ExpiryYear').change(function () {
                 document.getElementById('txtYear').value = $(this).attr("value");
                 })                                     
 
@@ -358,7 +139,6 @@
                    
                 }
             });
-
 
 
         });
@@ -551,7 +331,7 @@
 </head>
 <body>
     <form runat="server">
-        <asp:HiddenField runat="server" ID="txtYear"/>
+ <asp:HiddenField runat="server" ID="txtYear"/>
         <%--<div style="align-content: center">
             <iframe src="http://www.trumans.com.au/" id="headerFrame" height="371px" width="100%" scrolling="no" target="_parent"></iframe>
         </div>--%>
@@ -564,7 +344,7 @@
                                 <img src="Images/logo.png" alt="" /></a>
                         </div>
                         <div class="header_right wrap">
-                            <div class="header_links"><a href="https://ww03.elbowspace.com/servlets/cfd?xr4=&formts=2007-09-27%2017:12:00.183292" target="_blank">account payments</a> &nbsp; | &nbsp; <a href="https://members.praemium.biz/praemium/genericmain.aspx?gid=trumans" target="_blank" class="first_top_link">login</a></div>
+                            <div class="header_links"><a href="https://payment.trumans.com.au">account payments</a> &nbsp; | &nbsp; <a href="https://members.praemium.biz/praemium/genericmain.aspx?gid=trumans" target="_blank" class="first_top_link">login</a></div>
                             <div class="slogan">
                                 <img alt="" src="Images/slogan.png" />
                             </div>
@@ -676,8 +456,8 @@
                                                 <img class="callout" src="Images/ico-tooltip.png" />
                                                 <span>
 
-                                                    <strong>Account Number Match</strong><br />
-                                                    Account number is a 13, 10 or 9 digit number that can be found on your bill or bill notification email.
+                                                    <strong>Account Number</strong><br />
+                                                    Enter your client ID as it appears on your invoice. Note that your client ID is not the same as your invoice ID.
                                                 </span>
                                                 </a>
                                     
@@ -696,7 +476,11 @@
                                             </div>
                                             <div>
                                                 <img class="callout" src="Images/ico-tooltip.png" />
-
+                                                <span>
+                                                    <strong>Amount</strong><br />
+                                                    Please type amount in the format #.##<br />
+                                                    Do not include the $ sign or any other non-numerical characters.
+                                                </span>
                                             </div>
                                             <div id="extrainfo" style="margin-top: 20px">
                                             </div>
@@ -705,31 +489,29 @@
                                             <h3>Payment Method</h3>
                                             <br>
                                             <br>
-                                            <div>
+                                               <div>
                                                 <a href="javascript:void(1);" class="tooltip">
                                                     <input type="radio" name="pay" value="Credit Card" id="radCC">
                                                     <label style="display: inline" for="radCC">Credit Card</label>
                                                     <br>
                                                     <br />
-                                                    <input type="radio" name="pay" value="DD" id="radDD" disabled>
-                                                    <label style="display: inline" for="radDD">Direct Debit</label> 
-                                                    <label style="background-color: red; display: inline; color: white; font-size: 8px; font-style: italic; vertical-align: super;">COMING SOON</label>
-                                                    <br>
-                                                    <br />
                                                     <input type="radio" name="pay" value="BPAY" id="radBPAY">
                                                     <label style="display: inline" for="radBPAY">BPAY</label>
+                                                    <br>
                                                     <br />
-                                                    <br />
-                                                    <input type="radio" name="pay" value="Paypal" id="radPP" disabled>
+                                                    <input type="radio" name="pay" value="Paypal" id="radPP">
                                                     <label style="display: inline" for="radPP">PayPal</label>
-                                                     <label style="background-color: red; display: inline; color: white; font-size: 8px; font-style: italic; vertical-align: super;">COMING SOON</label>
+<!--                                                    <br />
+                                                    <br />
+                                                    <input type="radio" name="pay" value="DD" id="radDD" disabled>
+                                                    <label style="display: inline; color: grey; font-style: italic" for="radDD">Direct Debit</label> 
+                                                    <label style="background-color: red; display: inline; color: white; font-size: 8px; font-style: italic; vertical-align: super;">COMING SOON</label> -->
                                             </div>
                                             <div>
                                                 <img class="callout" src="Images/ico-tooltip.png" />
                                                 <span>
-
                                                     <strong>Payment Method</strong><br />
-                                                    After selection you will be redirected to the payment provider.
+                                                    After selection you will see relevant payment fields appear below.
                                                 </span>
                                                 </a>
                                             </div>
@@ -742,7 +524,7 @@
                                                 <tr>
                                                     <td>Card Number</td>
                                                     <td>
-                                                        <input  class="ignore" id="ccNo" type="text" runat="server"  maxlength="16" autocomplete="off" onchange="return ValidateCC()" /></td>
+                                                        <input  class="ignore" id="ccNo" type="text" runat="server" maxlength="16" autocomplete="off" onchange="return ValidateCC()" /></td>
                                                 </tr>
                                                 <tr>
                                                     <td>Card Expiry </td>
@@ -769,7 +551,11 @@
                                                         <select id="ExpiryYear"  runat="server">
                                                               <option value="0">Year</option>
                                                         </select>
-                                                         
+                                                          <script>
+                                                              var myselect = document.getElementById("ExpiryYear"), year = new Date().getFullYear(), maxyear= year+20, yearclone=year;
+                                                              var gen = function (max) { do { myselect.add(new Option(year++, (yearclone++).toString().substr(2, 2)), null); } while (year < maxyear); }(20);
+
+                                                        </script>
 
                                                     </td>
                                                 </tr>
@@ -870,7 +656,7 @@
                                         <div class="clear"></div>
                                         <div style="height: 80px;"></div>
                                         <div class="other-payment-links-details">
-                                            <%--<ul class="nav">
+                                             <%--<ul class="nav">
                                                 <li>
                                                     <a href="javascript:void(1);" target="_blank">Other Payment Methods</a>
                                                 </li>
@@ -878,9 +664,10 @@
                                                     <a href="javascript:void(1);" target="_blank">Payment&nbsp;Difficulties</a>
                                                 </li>
 
-                                            </ul>--%>
+                                            </ul> --%>
 
                                             <span id="siteseal"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=Z5xjwkaNDupXpKXSSIDr8Y6tLGO5LzWa7iTkeDGtjiLyvpDGWj5dadOKCO16"></script></span>
+                                    
                                         </div>
                                         <div class="clear"></div>
 
